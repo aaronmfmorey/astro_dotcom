@@ -1,0 +1,18 @@
+---
+title: "Thy Words in The Lamp"
+pubDate: "2023-01-13"
+tags:
+  - blog
+---
+
+I was surprised when I saw an [essay in _The Lamp_ on writing English prose](https://thelampmagazine.com/2023/01/09/how-to-write-english-prose/), and discovered the byline was none other than David Bentley Hart. My initial reaction was flippant, I must admit. I think of him as a pompous clownish figure, but ultimately I enjoyed the essay.
+
+I'll start by saying I'm a sucker for the genre. I love reading about prose style. The authors are always so sure of what makes makes great writing, so dedicated to a particular style, so certain anyone who disagrees is a clod. But you can't possibly sit down to write in a manner that would satisfy all the stylists. And shouldn't! The value in reading all this is to have a variety of little voices in your head as you write, each of them arguing for and against the choices you're making. Let them argue it out, but in the end you're the one doing the writing. The buck stops here.
+
+To get back to the essay at hand, I especially loved all the samples of great writers that he included throughout. Style advice that is just a list of rules (with perhaps an example sentence contrived by the author) don't convey the power of good writing in the same way as larger samples of real writing. I mostly came away understanding what he admired and wanted to convey with his rules.
+
+Unfortunately, this really good stuff was overshadowed by the, if you know what I mean, _David Bentley Hart_-ness of it all. He writes about developing an ear for good prose and listening for it in your own writing. This explains the purpleness of his own prose: he has little ability to discern whether his own words sound good if he enjoyed composing them. Neither of his own fragments at the end of the piece are particularly good, especially once the reader's palate has been primed by the great writers he quotes at the beginning. In the essay's second rule he writes: "Always use the word you judge most suitable for the effect you want to produce, in terms both of imagery and sound". But his own words are, as ever, weighed down by the need to add multiple modifiers to every noun and verb, never trusting them to speak for themselves. Perhaps he should spend more time choosing the correct noun so it doesn't need to be coerced into the proper meaning by a cavalcade of painstakingly chosen adjectives.
+
+He would reject this criticism, of course. He would reject all criticism of his writing on the grounds that the reader is unfit to judge what has been written. He says of his excerpts: "Only I can ever really know what it is about each of them that I find so perfectly pleasing; but, believe me, that knowledge makes all the hard work of writing seem more than worthwhile." This is the death sentence for any sort of thinking about writing, your own or someone else's. If the written word exists only to bring satisfaction to the author regardless of the effect it has on the reader, it's not entirely different from public indecency.
+
+I'm hardly an expert in his thinking, but so far as I can tell, this is the key to understanding David Bentley Hart: he can never be demonstrated to be wrong because his understanding is beyond that of any critic. He's not answerable to his readers, will not condescend to defend himself. Like God speaking to Job, he dares us to contradict. But he hasn't drawn out Leviathan on a hook any more than I have. He might be summing up his own essay when writes here "It does, however, impart a useful lesson: never mistake a tone of authority for evidence of actual expertise."

@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Email",
+    "url": "mailto:aaronmorey@gmail.com",
+    "icon": "fa-regular fa-envelope"
+  },
+  {
+    "title": "Github",
+    "url": "https://github.com/aaronmfmorey",
+    "icon": "fa-brands fa-github"
+  },
+  {
+    "title": "Goodreads",
+    "url": "https://www.goodreads.com/user/show/17419152-aaron",
+    "icon": "fa-brands fa-goodreads-g"
+  },
+  {
+    "title": "Hevy",
+    "url": "https://hevy.com/user/aaronmorey",
+    "icon": "fa-solid fa-dumbbell"
+  },
+  {
+    "title": "Bluesky",
+    "url": "https://bsky.app/profile/aaronmorey.com",
+    "icon": "fa-solid fa-cloud"
+  }
+]
+
