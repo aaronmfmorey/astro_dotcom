@@ -1,11 +1,40 @@
 ---
 import Layout from '../layouts/BlogPost.astro';
+const pageTitle = "About Me	- Aaron";
+const identity = {
+  firstName: "Aaron",
+  city: "Milwaukee",
+  occupation: "Software Development Manager",
+  hobbies: ["coding", "watching baseball", "playing softball", "lifting weights"],
+  skills: ["Javascript", "HTML/CSS", "PHP", "Python", "AWS", "Java", "C#"],
+};
+
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
+const happy = true;
+const finished = true;
+const goal = 3;
 ---
 
 <Layout
-	title="About Me"
+	title={pageTitle}
 	description="It's all about ME, baby"
 	pubDate={new Date('February 24, 2025')}
 >
-	<h1>All About ME</h1>
+	<ul>
+		<li>My name is {identity.firstName}</li>
+		<li>I work as a {identity.occupation} in {identity.city}</li>
+		{identity.hobbies.length >= 2 &&
+			<li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
+		}
+	</ul>
+
+	<p>My skills are:</p>
+	<ul>
+		{skills.map((skill) => <li>{skill}</li>)}
+	</ul>
+	{happy && <p>I am happy to be learning Astro!</p>}
+
+	{finished && <p>I finished this tutorial!</p>}
+
+	{goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
 </Layout>
