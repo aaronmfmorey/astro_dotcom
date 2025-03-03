@@ -8,6 +8,11 @@ export default defineConfig({
 	site: 'https://example.com',
 	integrations: [mdx(), sitemap()],
 	compressHTML: true,
+	vite: {
+		resolve: {
+			preserveSymlinks: true
+		}
+	},
 	// From https://docs.astro.build/en/reference/configuration-reference/#compresshtml
 	markdown: {
 		shikiConfig: {
@@ -24,6 +29,6 @@ export default defineConfig({
 		  // https://shiki.style/guide/dual-themes#without-default-color
 		  // (Added in v4.12.0)
 		  defaultColor: false,
-		}
+		},
 	}
 });
