@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import BlogPost from '../../components/BlogPost.astro'
+import {getCollection} from "astro:content";
+// const allPosts = Object.values(import.meta.glob('./**/*.md', { eager: true }));
+const allPosts = Object.values(import.meta.glob('../posts/**/*.md', { eager: true }));
+let uniqueTags = new Map(); //Record<string, number> = {};
+allPosts.forEach(function (post: any) {
+    post.frontmatter.tags.forEach(function (tag: string) {
+        if (uniqueTags.has(tag)) {
+            console.log(tag + " in ut")
+            uniqueTags.set(tag, uniqueTags.get(tag) + 1);
+        } else {
+            uniqueTags.set(tag, 1);
+        }
+    })
+});
+const pageTitle = "Tags";
+---
+<style>
+    a {
+        color: #00539F;
+    }
+
+    .tags {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+    }
+
+    .tag {
+        margin: 0.25em;
+        border: dotted 1px #a1a1a1;
+        border-radius: .5em;
+        padding: .5em 1em;
+        font-size: 1.15em;
+        background-color: #F8FCFD;
+    }
+</style>
+<BaseLayout pageTitle={pageTitle}>
+    <p>Here are all the tags in my blog postss.</p>
+    <ul class="tags">
+        {
+            Array.from(uniqueTags.keys()).sort().map(function(key) {
+                if (['draft', 'blog'].includes(key)) {
+                    return <></>;
+                } else {
+                    return <li class="tag"><a href={`/tags/${key}`}>{key}</a> ({uniqueTags.get(key)})</li>
+                }
+            })
+        }
+    </ul>
+</BaseLayout>
