@@ -4,11 +4,13 @@
 // import Footer from '../components/Footer.astro';
 // import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Greeting from '../components/Greeting.jsx';
 const pageTitle = "Home Page";
 ---
 <BaseLayout pageTitle={pageTitle}>
 		<main>
 			<h1>🧑‍🚀 Hello, Astronaut!</h1>
+			<Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
 			<p>
 				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
 				template serves as a lightweight, minimally-styled starting point for anyone looking to build
