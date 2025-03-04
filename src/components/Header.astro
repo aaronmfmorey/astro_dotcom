@@ -3,6 +3,7 @@ import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
 import Navigation from './Navigation.astro';
 import Hamburger from "./Hamburger.astro";
+import ThemeIcon from './ThemeIcon.astro';
 ---
 
 <header>
@@ -10,6 +11,7 @@ import Hamburger from "./Hamburger.astro";
 		<h2><a href="/">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
 			<Hamburger />
+			<ThemeIcon />
 			<Navigation />
 		</div>
 		<div class="social-links">
